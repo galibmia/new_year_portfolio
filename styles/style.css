@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FFF;
+    width: 180px;
+    height: 70px;
+    flex-shrink: 0;
+    color: #005FAC;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 78%;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #67bbff;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+.header-text {
+    margin-top: 216px;
+}
+
+.header {
+    background-image: url(../images/banner/banner3.png);
+    height: 808px;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.header-title,
+.header-description {
+    text-align: right;
+    margin-right: 230px;
+    margin-bottom: 24px;
+    padding-left: 1150px;
+}
+
+.header-title {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 525px;
+}
+
+.header-description {
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 515px;
+}
+
+.main {
+    padding: 2% 20%;
+}
+
+.personal-data {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.content-title {
+    color: var(--Dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+    width: 288px;
+}
+
+.content-description {
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+    width: 416px;
+}
+
+.content-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-list li {
+    padding-bottom: 10px;
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.content-list i {
+    padding-right: 10px;
+}
